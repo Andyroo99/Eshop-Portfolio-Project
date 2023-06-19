@@ -1,0 +1,66 @@
+/* moves the buttons in the navbar to the right */
+.navbar-nav.ml-auto {
+  margin-left: auto;
+}
+
+/* bolds the buttons in the navbar and takes away background color */
+.navbar .nav-link {
+  background-color: transparent;
+  font-weight: bold;
+}
+
+/* changes the background of the dropdown items in the navbar to orange when hovering over it */
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: orange;
+}
+
+/* makes the dropdown menu appear when hovering over the "Shop" button. */
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* sets the dropdown menu to initially be hidden. */
+.navbar .dropdown-menu {
+  display: none;
+}
+
+/* targets grid row to add spacing between elements */
+.custom-grid-row > [class^="col-"] {
+  margin: 10px;
+}
+
+/* puts the image and text on the same line */
+.item-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* sizes the image in the shopping cart */
+.item-image {
+  width: 60px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+
+.item-text {
+  flex: 1;
+}
+
+/* "x2", "x3", and so on will be displayed in yellow color in the shopping cart. */
+.text-yellow {
+  color: yellow;
+}
+
+.form-select {
+  width: 40% !important;
+  max-width: 40% !important;
+}
+
+/* centers otherwise non-centered grid items */
+@media (max-width: 767px) {
+  .custom-grid-row {
+    justify-content: center;
+  }
+}
