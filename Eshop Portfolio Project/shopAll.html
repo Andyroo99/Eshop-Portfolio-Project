@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <title>Hoodies</title>
+  <title>Eshop Portfolio Project</title>
   <meta charset="utf-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,7 @@
       <div id="cartTotalContainer" style="display: none;">
         <strong><p>Total: <span id="cartTotal">$0.00</span></p></strong>
       </div>
-      <button id="checkoutButton" class="btn btn-success mb-3" href="#checkout.html">Checkout</button> <!-- Checkout button -->
+      <button id="checkoutButton" class="btn btn-success mb-3">Checkout</button> <!-- Checkout button -->
     </div>
   </div>
 
@@ -60,7 +60,7 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="shopHoodies.html">Hoodies</a></li>
               <li><a class="dropdown-item" href="shopShirts.html">Shirts</a></li>
-              <li><a class="dropdown-item" href="shopAll.html">All</a></li>
+              <li><a class="dropdown-item" href="#">All</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -91,8 +91,92 @@
   <div class="container-fluid mt-3">
     <div class="container-fluid">
 
+      <!-- starts the first row of the grid -->
+      <div class="row custom-grid-row justify-content-center">
+
+        <!-- first card of the first row -->
+        <div class="col-md">
+          <div class="card">
+            <img class="card-img-top" src="images/Clothing/whiteTee.jpg" alt="White Tee" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Plain White Tee</h4>
+              <p class="card-text">$9.99</p>
+              <div class="input-group">
+                <select class="form-select quantity-select">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <button class="btn btn-primary add-to-cart-button">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- second card of the first row -->
+        <div class="col-md">
+          <div class="card">
+            <img class="card-img-top" src="images/Clothing/blueTee.jpg" alt="Blue Tee" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Plain Blue Tee</h4>
+              <p class="card-text">$9.99</p>
+              <div class="input-group">
+                <select class="form-select quantity-select">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <button class="btn btn-primary add-to-cart-button">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- third card of the first row -->
+        <div class="col-md">
+          <div class="card">
+            <img class="card-img-top" src="images/Clothing/orangeBaseballTee.jpg" alt="Orange Baseball Tee" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Orange Baseball Tee</h4>
+              <p class="card-text">$14.99</p>
+              <div class="input-group">
+                <select class="form-select quantity-select">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <button class="btn btn-primary add-to-cart-button">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+        <!-- ends the top row of clothing -->
+
         <div class="row custom-grid-row justify-content-center">
-        <!-- first card of the hoodie first row -->
+        <!-- first card of the second row -->
         <div class="col-md">
           <div class="card">
             <img class="card-img-top" src="images/Clothing/blueTieDyeHoodie.jpg" alt="Blue Tie Dye Hoodie" style="width:100%">
@@ -118,7 +202,7 @@
           </div>
         </div>
 
-        <!-- second card of the hoodie first row -->
+        <!-- second card of the second row -->
         <div class="col-md">
           <div class="card">
             <img class="card-img-top" src="images/Clothing/blueZipupHoodie.jpg" alt="Blue Zipup Hoodie" style="width:100%">
@@ -144,7 +228,7 @@
           </div>
         </div>
 
-        <!-- third card of the hoodie first row -->
+        <!-- third card of the second row -->
         <div class="col-md">
           <div class="card">
             <img class="card-img-top" src="images/Clothing/plainOrangeHoodie.jpg" alt="Plain Orange Hoodie" style="width:100%">
@@ -172,7 +256,7 @@
       </div>
     </div>
   </div>
-</div>
+
 
 <footer class="footer">
   <div class="container">
@@ -206,6 +290,7 @@
     </div>
   </div>
 </footer>
+
 
 </body>
 </html>
